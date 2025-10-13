@@ -46,7 +46,8 @@
   let comments = string.find(comments-regex)
 
   if type(comments) != str or string.trim().at(0) != "/" {
-    return text(red)[*You must provide a description for each template code!*]
+    //return "#text(red)[*You must provide a description for each template code!*]"
+    return "_Sin descripción._"
   }
 
   let lines = comments.split("\n")
