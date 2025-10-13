@@ -102,7 +102,7 @@
 }
 
 #let template-section-title(title) = {
-  text(weight: "black", size: 15pt)[#title]
+  heading(text(weight: "black", size: 15pt)[#title])
 }
 
 #let typst-section(title: [], content: []) = {
