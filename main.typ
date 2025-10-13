@@ -1,4 +1,3 @@
-
 #set page(
   paper: "a4"
 )
@@ -8,25 +7,21 @@
   size: 13pt
 )
 
-// Cover
-#align(center)[
-  #image(width: 150%, "img/utfsm_cp.png")
+#show link: set text(size: 8pt)
+#show link: underline
+
+// Portada
+#[
+  #set align(center + horizon)
+  #image("img/ranita.png")
+  #text(size: 2.5em)[Apunte popcorn]
+
+  #text(size: 8pt)[
+    Basado en el Handbook de los estudiantes de la Universidad Técnica Federico Santa María,
+    disponible en Github: ProgramacionCompetitivaUTFSM/Handbook-USM
+    #footnote(link("https://github.com/ProgramacionCompetitivaUTFSM/Handbook-USM"))
+  ]
 ]
-
-#align(center)[
-  #text(size: 2.5em)[Handbook USM]
-]
-
-*Maintainers:*
-- Gabriel Carmona (MrYhatoh)
-- Carlos Lagos (CharlesLakes)
-- Sebastián Torrealba (storrealbac)
-- Abner Vidal (abner_vidal)
-
-*Contributors:*
-- Javier Oliva (JOliva)
-- Marcelo Lemus (MarceloL)
 
 // Content
-#let content-file = read("content.typ")
-#eval(content-file, mode: "markup")
+#include "content.typ"
