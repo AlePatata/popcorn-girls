@@ -1,6 +1,6 @@
 /*
- *Description:* Obtiene los divisores de un número n
-  Complejidad: O(√n)
+ *Description:* Obtiene los divisores de un número $n$
+  Complejidad: $O(√n)$
 */
 template<class T>
 vector<T> divisores(T n) {
