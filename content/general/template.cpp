@@ -1,5 +1,5 @@
 /*
- *Description:* Just the starting template code
+ *Description:* El inicio de tu código para el mejor contest que tendrás :D
 */
 #include<bits/stdc++.h>
 
@@ -7,6 +7,8 @@ using namespace std;
 
 using ll = long long;
 using ld = long double;
+
+template<class T> using vec = vector<T>;
 
 const ll mod = 1e9 + 7;
 const ll inf = 1e12;
