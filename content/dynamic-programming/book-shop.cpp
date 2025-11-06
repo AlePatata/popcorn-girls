@@ -1,6 +1,5 @@
 /*
- *Descripcion:* Encuentra la cantidad maxima de paginas leidas teniendo un presupuesto x
-    dado n libros, cada uno con un costo h[i] y s[i] paginas.
+ *Descripcion:* Encuentra la cantidad maxima de paginas leidas teniendo un presupuesto x dado n libros, cada uno con un costo h[i] y s[i] paginas.
 */
 vector<vi> dp(2, vi(x+1, 0)); int ans = 0;
 for (int i = 1; i < n+1; ++i) 
