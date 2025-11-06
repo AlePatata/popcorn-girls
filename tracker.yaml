@@ -7,6 +7,7 @@ content:
     - rolling-hashing.cpp
     - kmp.cpp
     - manacher.cpp
+    - min-rotation.cpp
   - data-structures:
     - min-queue.cpp
     - min-stack.cpp
