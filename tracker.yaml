@@ -3,7 +3,6 @@ content:
     - template.cpp
     - troubleshoot.typ
     - getline.typ
-    - vim.typ
   - strings:
     - rolling-hashing.cpp
     - kmp.cpp
@@ -67,5 +66,9 @@ content:
     - flowers.cpp
     - grid-paths.cpp
     - minimizing-coins.cpp
-
+    - money-sums.cpp
+    - rectangle-cutting.cpp
+    - removal-game.cpp
+    - removing-digits.cpp
+    - stones.cpp
     
