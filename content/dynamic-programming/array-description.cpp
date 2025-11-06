@@ -1,7 +1,5 @@
 /*
- *Descripcion:* Dado un arreglo (de n elementos con valores entre 1 y m) con ciertos elementos
- borrados (representados con 0), encuentra la cantidad de arreglos que se pueden formar cumpliendo que
- la diferencia entre elementos consecutivos debe ser a lo mas 1.
+ *Descripcion:* Dado un arreglo (de n elementos con valores entre 1 y m) con ciertos elementos borrados (representados con 0), encuentra la cantidad de arreglos que se pueden formar cumpliendo que la diferencia entre elementos consecutivos debe ser a lo mas 1.
 */
 vector<vi> dp(n, vi(m+1, 0));
 if (x[0] == 0) 

@@ -1,5 +1,5 @@
 /*
- *Descripcion:* Minima cantidad de operaciones para transformar un s en otro string t.
+ *Descripcion:* Minima cantidad de operaciones para transformar un string s en otro string t.
 */
 int n = s.size(), m = t.size();
 vector<vi> dp(n+1, vi(m+1, INF));

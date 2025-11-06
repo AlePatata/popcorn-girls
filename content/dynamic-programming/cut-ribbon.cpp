@@ -2,9 +2,6 @@
  *Descripcion:* Dado un lazo de largo n, y tres posibles largos de cortes a, b y c,
  encuentra la maxima cantidad de piezas en las que se puede cortar el lazo de forma recursiva con memoizacion. 
 */
-int n, a, b, c;
-vector<int> memo(0);
-
 int dp(int i) {
     if (i == 0) return 0;
     if (memo[i] != -INF-1) return memo[i];
