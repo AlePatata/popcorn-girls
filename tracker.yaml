@@ -50,5 +50,10 @@ content:
   - dynamic-programming:
     - lis.cpp
     - line-container.cpp
-    
+    - 2^sort.cpp
+    - cut-ribbon.cpp
+    - frog-1.cpp
+    - frog-2.cpp
+    - book-shop.cpp
+
     
