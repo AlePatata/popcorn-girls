@@ -60,5 +60,10 @@ content:
     - snapsack-1.cpp
     - coin-combinations-1.cpp
     - coin-combinations-2.cpp
+    - dice-combinations.cpp
+    - edit-distance.cpp
+    - flowers.cpp
+    - grid-paths.cpp
+    - minimizing-coins.cpp
 
     
