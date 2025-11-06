@@ -4,6 +4,7 @@ content:
     - troubleshoot.typ
     - getline.typ
     - binary-searching.cpp
+    - vim.typ
   - strings:
     - rolling-hashing.cpp
     - kmp.cpp
@@ -26,6 +27,7 @@ content:
     - criba.cpp
     - bin_pow.cpp
     - invmod.cpp
+    - rotate-matrix.cpp
 
   - graphs:
     - bfs.cpp
