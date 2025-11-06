@@ -26,6 +26,9 @@ content:
     - line-container.cpp
   - maths:
     - divisores.cpp
+    - criba.cpp
+    - bin_pow.cpp
+    - invmod.cpp
 
   - graphs:
     - dfs.cpp
