@@ -9,6 +9,7 @@
 
 #show link: set text(size: 8pt)
 #show link: underline
+#show heading: set text(weight: "black", size: 15pt)
 
 // Portada
 #[
@@ -22,6 +23,11 @@
     #footnote(link("https://github.com/ProgramacionCompetitivaUTFSM/Handbook-USM"))
   ]
 ]
+
+// Índice
+#pagebreak()
+#outline()
+#pagebreak()
 
 // Content
 #include "content.typ"
