@@ -3,6 +3,7 @@ content:
     - template.cpp
     - troubleshoot.typ
     - getline.typ
+    - vim.typ
   - strings:
     - rolling-hashing.cpp
     - kmp.cpp
