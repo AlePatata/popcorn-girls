@@ -55,5 +55,10 @@ content:
     - frog-1.cpp
     - frog-2.cpp
     - book-shop.cpp
+    - array-description.cpp
+    - investigating-zeros-and-ones.cpp
+    - snapsack-1.cpp
+    - coin-combinations-1.cpp
+    - coin-combinations-2.cpp
 
     
