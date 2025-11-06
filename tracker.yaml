@@ -28,8 +28,9 @@ content:
     - invmod.cpp
 
   - graphs:
-    - dfs.cpp
     - bfs.cpp
+    - dfs.cpp
+    - topo-sort.cpp
     - floyd-warshall.cpp
     - dijkstra.cpp
     - kruskal.cpp
