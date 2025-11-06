@@ -3,6 +3,7 @@ content:
     - template.cpp
     - troubleshoot.typ
     - getline.typ
+    - binary-searching.cpp
   - strings:
     - rolling-hashing.cpp
     - kmp.cpp
@@ -12,18 +13,13 @@ content:
     - min-queue.cpp
     - min-stack.cpp
     - min-deque.cpp
-
     - union-find.cpp
-
     - sparse-table.cpp
-
     - segment-tree.cpp
     - segment-tree-lazy.cpp
     - iterative-segment-tree-lazy.cpp
     - dynamic-segment-tree.cpp
-    
     - ordered-set.cpp
-
     - line-container.cpp
   - maths:
     - divisores.cpp
