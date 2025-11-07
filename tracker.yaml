@@ -3,6 +3,7 @@ content:
     - template.cpp
     - troubleshoot.typ
     - hash.typ
+    - execution-time.typ
     - getline.typ
   - strings:
     - rolling-hashing.cpp
