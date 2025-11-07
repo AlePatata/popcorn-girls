@@ -28,6 +28,7 @@ content:
     - bin_pow.cpp
     - invmod.cpp
     - rotate-matrix.cpp
+    - factorizacion-prima.cpp
 
   - graphs:
     - bfs.cpp
